@@ -1,0 +1,10 @@
+﻿data
+__pycache__
+.idea
+*.psd
+temp.png
+temp.data
+main.db
+exit.png
+db_test.py
+a.png

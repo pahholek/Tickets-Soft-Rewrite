@@ -1,0 +1,4 @@
+pillow
+code128
+tkcalendar
+sqlalchemy
