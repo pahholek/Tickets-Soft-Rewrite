@@ -36,9 +36,10 @@ def time_picker(Title):
 
     def grad_date():
         date.config(text="Wybrana data to: " + cal.get_date())
-        print(hour.get())
-        return 'test'
-
+        print(cal.get_date() + '|' + hour.get() + ':' + minute.get())
+        file = open('temp.data', 'w')
+        file.write(cal.get_date() + '|' + hour.get() + ':' + minute.get())
+        root.destroy()
     tkinter.Button(root, text="Get Date",
                    command=grad_date).pack(pady=50)
 
